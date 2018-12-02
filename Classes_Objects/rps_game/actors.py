@@ -1,9 +1,11 @@
 class Player:
     def __init__(self, name):
+        """ class variable Player.name"""
         self.name = name
 
 class roll:
     def __init__(self, roll_name):
+        """ class variable roll.roll_name, roll.wins, roll.loss"""
         self.roll_name = roll_name
         self.wins = []
         self.loss = []
